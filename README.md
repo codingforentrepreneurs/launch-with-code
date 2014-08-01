@@ -6,3 +6,5 @@ Launch with Code is a step-by-step guide to doing a email marketing pre-launch c
 
 ## Lecture Code
 [Start Project](../../tree/297ba4861935bd3fb5b330a3c135deff7973)
+
+[First View](../../tree/165df9c3b3881970a45ee44b7fca957b2909)
