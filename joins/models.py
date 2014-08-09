@@ -11,3 +11,7 @@ class Join(models.Model):
 	def __unicode__(self):
 		return "%s" %(self.email)
 
+
+#To see the guide on using south, go here: 
+#https://github.com/codingforentrepreneurs/Guides/blob/master/using_south_in_django.md
+
