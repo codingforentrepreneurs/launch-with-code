@@ -16,3 +16,5 @@ Launch with Code is a step-by-step guide to doing a email marketing pre-launch c
 [Django App](../../tree/486f8beedf760b0a960d611d5d219e73bc)
 
 [Using Forms](../../tree/ed2e80673810edcf9f4f5fed97ac0db738)
+
+[Change Models with South](../../tree/c421efb391925cd9097579a83acaf89fa)
