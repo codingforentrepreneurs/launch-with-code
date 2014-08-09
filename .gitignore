@@ -1,3 +1,4 @@
+.DS_STORE
 *.sqlite3
 
 # Byte-compiled / optimized / DLL files
