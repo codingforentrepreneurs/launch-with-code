@@ -30,7 +30,7 @@ def get_ref_id():
 		return ref_id
 
 def share(request, ref_id):
-	print ref_id
+	#print ref_id
 	context = {"ref_id": ref_id}
 	template = "share.html"
 	return render(request, template, context)
@@ -38,6 +38,14 @@ def share(request, ref_id):
 
 
 def home(request):
+	try:
+		join_id = request.session['join_id_ref']
+		obj = Join.objects.get(id=join_id)
+	except:
+		obj = None
+
+
+
 	form = JoinForm(request.POST or None)
 	if form.is_valid():
 		new_join = form.save(commit=False)
