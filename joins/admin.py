@@ -5,8 +5,9 @@ from .models import Join
 
 
 class JoinAdmin(admin.ModelAdmin):
-	list_display = ['__unicode__', 'timestamp', 'updated']
+	list_display = ['__unicode__', 'friend', 'timestamp', 'updated']
 	class Meta:
 		model = Join
 
 admin.site.register(Join, JoinAdmin)
+

@@ -25,3 +25,6 @@ Launch with Code is a step-by-step guide to doing a email marketing pre-launch c
 [Reference ID](../../tree/c445cb45c692d12d95864893d95f8b65c)
 
 [Share Page](../../tree/eff2f4d7b7443e8ef7ee712673d14ec2c)
+
+[Middleware to Track Shares](../../tree/9f1d2f1fbf1371adc116579c875b8c903d534bab)
+
