@@ -30,3 +30,5 @@ Launch with Code is a step-by-step guide to doing a email marketing pre-launch c
 [Save Shares with Foreign Keys](../../tree/d15b7b5c82c4fa8397ce12603b64ccf9de02e2b3)
 
 [Share Page Pt 2](../../tree/0cde0f11468eb6ac656d3daca5d586f085dcfdfa)
+
+[Load Static Files in Django](../../tree/92ce1958cf465769e3caf631eeeed2e2a49f6094)
