@@ -34,3 +34,5 @@ Launch with Code is a step-by-step guide to doing a email marketing pre-launch c
 [Load Static Files in Django](../../tree/92ce1958cf465769e3caf631eeeed2e2a49f6094)
 
 [Update Design](../../tree/f467dab473d3e2c6f460d20158c8c4ecc20348a5)
+
+[Share Page Pt 3](../../tree/1773b95d93993f58935f44dff3d7c78f168e54df)
