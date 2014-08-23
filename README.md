@@ -36,3 +36,5 @@ Launch with Code is a step-by-step guide to doing a email marketing pre-launch c
 [Update Design](../../tree/f467dab473d3e2c6f460d20158c8c4ecc20348a5)
 
 [Share Page Pt 3](../../tree/1773b95d93993f58935f44dff3d7c78f168e54df)
+
+[Use JQuery for Bootstrap Progress Bars](../../tree/53745c74abe970704c3dd417a83ca17641131b43)
