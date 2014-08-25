@@ -1,6 +1,29 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 
+
+{% block styles %}
+
+  <style>
+      body {
+        border-top: 4px solid #E47541;
+        /*min-height: 5000px;*/
+        /*min-width: 5000px;*/
+        background: url('{% static "img/beach.jpg" %}') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: conver;
+        background-size: cover;
+
+        /*background-image: url('{% static "img/beach.jpg" %}');*/
+        /*background-image:url('https://lh4.googleusercontent.com/-FsgMNhfQLSg/AAAAAAAAAAI/AAAAAAAAaRY/3VnF3vSuWKk/photo.jpg');*/
+        /*background-repeat: repeat-x;*/
+      }
+
+    </style>
+
+{% endblock %}
+
 {% block content %}
 
 
@@ -20,15 +43,26 @@
 
 
 <div class='container' style='text-align:center;'>
-<hr/>
+  <h1>Hello, welcome home</h1>
 
-<h1>Hello, welcome home</h1>
+  <form method="POST" action=""> {% csrf_token %}
+  {{ form.as_p }}
+  <input type='submit' value='Join' class='btn' />
+  </form>
 
-<form method="POST" action=""> {% csrf_token %}
-{{ form.as_p }}
-<input type='submit' value='Join' class='btn' />
-</form>
+
 
 </div>
+
+
+<div class='row' style='text-align:center;background-color:white;margin: 80px 0px;min-height:200px;'>
+  <div class='col-sm-12'>
+  <h1>Hello</h1>
+  </div>
+
+
+</div>
+
+
 {% endblock %}
 

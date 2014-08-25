@@ -1,3 +1,4 @@
+   
 <!DOCTYPE html>
 {% load staticfiles %}
 <html lang="en">
@@ -35,7 +36,11 @@
   .navbar-inverse .navbar-brand, .navbar-brand:hover {
     color: white;
   }
+
     </style>
+
+    {% block styles %}
+  {% endblock %}
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="view-source:http://getbootstrap.com/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -64,14 +69,13 @@
 
    
 
-      
-    <div class="container">
-      <hr>
+    <div class="row" style="margin-top:80px;background-color:grey;">
+    <div class="container" style='text-align:center; padding: 20px;'>
       <footer>
         <p>&copy; Company 2014</p>
       </footer>
     </div> <!-- /container -->
-
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
