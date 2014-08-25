@@ -41,5 +41,5 @@ Launch with Code is a step-by-step guide to doing a email marketing pre-launch c
 
 [Background Image & Styles](../../tree/92aef33665b65770d902e797d782e38f07ae3abe)
 
-
+[Update Email Form Design](../../tree/df7c15e2da2825ef879ae79a32b1e0b92ae1520e)
 
