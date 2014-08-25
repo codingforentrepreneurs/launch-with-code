@@ -43,13 +43,27 @@
 
 
 <div class='container' style='text-align:center;'>
+<div class='col-sm-6 col-sm-offset-3'>
   <h1>Hello, welcome home</h1>
 
-  <form method="POST" action=""> {% csrf_token %}
-  {{ form.as_p }}
-  <input type='submit' value='Join' class='btn' />
+  <form class='form-horizontal' method="POST" action=""> {% csrf_token %}
+    <div class='form-group form-group-lg'>
+    {% if form.email.errors %}
+     {% for err in form.email.errors %}
+     <div class="alert alert-danger" role="alert">{{ err }}</div>
+    <div class="alert alert-danger" role="alert">Your Email is required</div>
+    {% endfor %}
+    {% endif %}
+     
+          <div class="input-group">
+        <input class='form-control' type="email" name="email" placeholder="Your email..." />
+            <span class='input-group-btn'>
+          <input type='submit' value='Join' class='btn btn-primary btn-lg' />
+          </span>
+        </div>
+    </div>
   </form>
-
+</div>
 
 
 </div>
