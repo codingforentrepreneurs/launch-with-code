@@ -18,7 +18,6 @@ ALLOWED_HOSTS = ['*']
 
 
 SHARE_URL = "http://ancient-castle-2299.herokuapp.com/?ref="
-
 # Static asset configuration
 # import os
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
