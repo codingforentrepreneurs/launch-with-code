@@ -2,6 +2,19 @@
 {% load staticfiles %}
 
 
+{% block styles %}
+
+<style>
+.featured-row {
+	border:none !important;
+}
+
+
+</style>
+
+
+{% endblock %}
+
 {% block jquery %}
 
 $signUpCount = {{ count }};
@@ -74,7 +87,7 @@ if ($signUpCount == 0){
       <div class='row'>
         <div class='col-md-6 pull-right' style='text-align:center;'>
         <i class="fa fa-share-alt fa-5x"></i>
-          <h1>Invite Friends &amp; Earn Rewards</h1>
+          <h1>Invite Friends &amp;<br/> Earn Rewards</h1>
           <p>Share your unique link below via Email, Facebook, Twitter, Reddit, or LinkedIn to earn rewards from LaunchWithCode.com.</p>
           <div class='well' style='background-color:white;'>{{ ref_url }}</div>
           Share<br/>
@@ -191,8 +204,44 @@ Joined number is: {{ count }}<br/>
 	</div>
 
 </div>
+<div class='row featured-row'>
+  <div class='col-sm-12'>
+   
+ 	
+    <div class='col-sm-3'>
+      <i class="fa fa-upload fa-3x"></i>
+      <h2>Feature</h2>
+      <p class='lead'>
+      Some feature text goes here.
+      </p>
+    </div>
+    <div class='col-sm-3'>
+      <i class="fa fa-upload fa-3x"></i>
+      <h2>Feature</h2>
+      <p class='lead'>
+      Some feature text goes here.
+      </p>
+    </div>
+     <div class='col-sm-3'>
+      <i class="fa fa-upload fa-3x"></i>
+      <h2>Feature</h2>
+      <p class='lead'>
+      Some feature text goes here.
+      </p>
+    </div>
+     <div class='col-sm-3'>
+      <i class="fa fa-upload fa-3x"></i>
+      <h2>Feature</h2>
+      <p class='lead'>
+      Some feature text goes here.
+      </p>
+    </div>
 
 
+
+  </div>
+
+</div>
 
 </div>
 {% endblock %}

@@ -19,6 +19,8 @@
         /*background-image:url('https://lh4.googleusercontent.com/-FsgMNhfQLSg/AAAAAAAAAAI/AAAAAAAAaRY/3VnF3vSuWKk/photo.jpg');*/
         /*background-repeat: repeat-x;*/
       }
+     
+      
 
     </style>
 
@@ -32,8 +34,8 @@
       <div class="container">
         <div class='col-sm-6'>
           <h1>Hello, world!</h1>
-          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-          <p><a class="btn btn-success btn-lg" role="button">Learn more &raquo;</a></p>
+          <p>Use it as a starting point to create something more unique.</p>
+          <p><a class="btn btn-default btn-lg btn-block" href='#signup' role="button">Be First &raquo;</a></p>
         </div>
         <div class='col-sm-6'>
           <img src="{% static 'img/iphone.png' %}" class='img-responsive' />
@@ -42,9 +44,10 @@
     </div>
 
 
-<div class='container' style='text-align:center;'>
+<div class='container' style='text-align:center;color:#E47541;' id="signup" >
 <div class='col-sm-6 col-sm-offset-3'>
-  <h1>Hello, welcome home</h1>
+<i class="fa fa-unlock fa-5x"></i>
+  <h1>Unlock First</h1>
 
   <form class='form-horizontal' method="POST" action=""> {% csrf_token %}
     <div class='form-group form-group-lg'>
@@ -63,17 +66,108 @@
         </div>
     </div>
   </form>
+  <p class='lead'>Sign up here. <br/> Get First News on Content</p>
 </div>
 
 
 </div>
 
-
-<div class='row' style='text-align:center;background-color:white;margin: 80px 0px;min-height:200px;'>
+ 
+<div class='row featured-row'>
   <div class='col-sm-12'>
-  <h1>Hello</h1>
+   
+ 
+    <div class='col-sm-3 col-sm-offset-3'>
+      <i class="fa fa-upload fa-3x"></i>
+      <h2>Feature</h2>
+      <p class='lead'>
+      Some feature text goes here.
+      </p>
+    </div>
+    <div class='col-sm-3'>
+      <i class="fa fa-upload fa-3x"></i>
+      <h2>Feature</h2>
+      <p class='lead'>
+      Some feature text goes here.
+      </p>
+    </div>
+
+
+
   </div>
 
+</div>
+
+
+
+<div class='row featured-row'>
+  <div class='col-sm-12'>
+   
+    <div class='col-sm-3'>
+      <i class="fa fa-upload fa-3x"></i>
+      <h2>Feature</h2>
+      <p class='lead'>
+      Some feature text goes here.
+      </p>
+    </div>
+    <div class='col-sm-3'>
+      <i class="fa fa-upload fa-3x"></i>
+      <h2>Feature</h2>
+      <p class='lead'>
+      Some feature text goes here.
+      </p>
+    </div>
+    <div class='col-sm-3'>
+      <i class="fa fa-upload fa-3x"></i>
+      <h2>Feature</h2>
+      <p class='lead'>
+      Some feature text goes here.
+      </p>
+    </div>
+    <div class='col-sm-3'>
+      <i class="fa fa-upload fa-3x"></i>
+      <h2>Feature</h2>
+      <p class='lead'>
+      Some feature text goes here.
+      </p>
+    </div>
+
+
+  </div>
+
+</div>
+
+<div class='row featured-row'>
+  <div class='col-sm-12'>
+    <div class='col-sm-3'>
+        <i class="fa fa-upload fa-3x"></i>
+        <h2>Feature</h2>
+        <p class='lead'>
+        Some feature text goes here.
+        </p>
+      </div>
+      <div class='col-sm-3'>
+        <i class="fa fa-upload fa-3x"></i>
+        <h2>Feature</h2>
+        <p class='lead'>
+        Some feature text goes here.
+        </p>
+      </div>
+      <div class='col-sm-3'>
+        <i class="fa fa-upload fa-3x"></i>
+        <h2>Feature</h2>
+        <p class='lead'>
+        Some feature text goes here.
+        </p>
+      </div>
+      <div class='col-sm-3'>
+        <i class="fa fa-upload fa-3x"></i>
+        <h2>Feature</h2>
+        <p class='lead'>
+        Some feature text goes here.
+        </p>
+      </div>
+    </div>
 
 </div>
 
