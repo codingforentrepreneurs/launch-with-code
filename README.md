@@ -1,7 +1,7 @@
 Launch with Code
 ================
 
-Launch with Code is a step-by-step guide to doing a email marketing pre-launch campaign just like _example coming soon_.
+Launch with Code is a step-by-step guide to doing a email marketing pre-launch campaign just like [SwiftForEntrepreneurs.com](http://swiftforentrepreneurs.com/) and [LaunchWithCode.com](http://launchwithcode.com).
 
 
 ## Lecture Code
@@ -44,3 +44,7 @@ Launch with Code is a step-by-step guide to doing a email marketing pre-launch c
 [Update Email Form Design](../../tree/df7c15e2da2825ef879ae79a32b1e0b92ae1520e)
 
 [Prepare for Production](../../tree/69b276ca326cd00122a7b055fe144729951ca19e)
+
+[Launch with Code](../../tree/bb6d36b6939b534bcc5e7f389b00e2d08)
+
+
