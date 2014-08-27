@@ -3,6 +3,14 @@ Launch with Code
 
 Launch with Code is a step-by-step guide to doing a email marketing pre-launch campaign just like [SwiftForEntrepreneurs.com](http://swiftforentrepreneurs.com/) and [LaunchWithCode.com](http://launchwithcode.com).
 
+## Topics Discussed
+
+Django Project (Back-End Web Framework) Basics: [http://djangoproject.com](http://djangoproject.com)
+Bootstrap (Front-End Web Framework) Basics: [http://getbootstrap.com](http://getbootstrap.com)
+Launching on Heroku Hosting Service: [http://heroku.com](http://heroku.com)
+Email Collection 
+Basic Social Sharing using HTML only
+IP Address & Spam Blocking
 
 ## Lecture Code
 [Start Project](../../tree/297ba4861935bd3fb5b330a3c135deff7973)
