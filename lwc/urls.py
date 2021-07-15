@@ -1,17 +1,15 @@
-from django.conf.urls import patterns, include, url
-
+from django.urls import re_path
 from django.contrib import admin
-admin.autodiscover()
 
-urlpatterns = patterns('',
+# from joins import views as joins_views
+from joins.views import home as home_view, share as share_view
 
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', 'joins.views.home', name='home'),
+urlpatterns = [
+    re_path(r'^admin/', admin.site.urls),
+    re_path(r'^$', home_view, name='home'),
     #url(r'^testhome$', 'lwc.views.testhome', name='testhome'),
-    url(r'^(?P<ref_id>.*)$', 'joins.views.share', name='share'),
+    re_path(r'^(?P<ref_id>.*)$', share_view, name='share'),
     # Examples:
     #url(r'^home2/$', 'lwc.views.home2', name='home'),
     # url(r'^blog/', include('blog.urls')),
-
-    
-)
+]

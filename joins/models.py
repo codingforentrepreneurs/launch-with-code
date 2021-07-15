@@ -4,8 +4,7 @@ from django.db import models
 
 class Join(models.Model):
 	email = models.EmailField()
-	friend = models.ForeignKey("self", related_name='referral',\
-										null=True, blank=True)
+	friend = models.ForeignKey("self", related_name='referral', null=True, blank=True, on_delete=models.SET_NULL)
 	ref_id = models.CharField(max_length=120, default='ABC', unique=True)
 	ip_address = models.CharField(max_length=120, default='ABC')
 	timestamp = models.DateTimeField(auto_now_add = True, auto_now=False)
