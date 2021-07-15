@@ -13,7 +13,7 @@ Basic Social Sharing using HTML only
 IP Address & Spam Blocking
 
 ## Upgraded Code
-- Upgrading to Django 3.2 [Code](./tree/upgrade_to_32) & [Video](https://youtu.be/zOGzihSWQtc)
+- Upgrading to Django 3.2 [Code](../../tree/upgrade_to_32) & [Video](https://youtu.be/zOGzihSWQtc)
 
 ## Lecture Code
 [Start Project](../../tree/297ba4861935bd3fb5b330a3c135deff7973)
